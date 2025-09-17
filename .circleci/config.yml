@@ -21,7 +21,7 @@ jobs:
       - checkout
       - run:
           name: "Env Check"
-          command: "curl https://httpbin.org/ip"
+          command: "curl https://ifconfig.io"
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
